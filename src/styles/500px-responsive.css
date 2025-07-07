@@ -5,11 +5,17 @@
         width: 100%;
         min-height: 100vh;
         padding: 30px;
+        border-radius: 0;
     }
 
-    #inu_container {
+    #input_container {
          display: flex;
          flex-direction: column;
          gap: 38px;
+    }
+
+    .btn-default {
+        display: flex;
+        align-self: center;
     }
 }
