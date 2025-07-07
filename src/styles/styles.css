@@ -32,9 +32,9 @@ body {
     font-size: 1.5rem;
     cursor: pointer;
     gap: 8px;
-    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
     color: #fff;
     background-color: #963c0f;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
     transition: 0.15s ease;
 }
 
@@ -57,6 +57,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+#form_header .btn_default {
+    height: fit-content;
+    padding-right: 3px;
+    padding-top: 2px;
+    width: 50px;
+    font-size: 2.4rem;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    color: #fff;
+    background-color: #963c0f;
 }
 
 #form_title {
